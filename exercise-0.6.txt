@@ -1,0 +1,13 @@
+user->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->user: HTML-code
+
+
+note over user:
+when user clicked the button 
+
+end note
+
+
+user->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->user: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
+
